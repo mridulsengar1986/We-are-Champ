@@ -1,0 +1,97 @@
+html, body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    user-select:none;
+}
+div{
+ display:flex;
+ flex-direction: column;
+ max-width: 390px;
+ margin: 30px auto;
+ background-color: black;
+ /*height: 844px;*/
+ text-align: center;
+}
+img{
+width: 90px;
+height: 90px;
+padding-top: 51px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h3,h1{
+font-family: Josefin Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color:whitesmoke;
+}
+textarea{
+width: 317px;
+height: 118px;
+border-radius: 8px;
+margin-left:auto;
+margin-right:auto;
+background: #444059;
+color:white;
+font-size: large;
+font-weight: 600;
+}
+button{
+margin-top: 20px;
+width: 317px;
+height: 61px;
+border-radius: 8px;
+font-family: Josefin Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color:black;
+margin-left:auto;
+margin-right: auto;
+background: #28A9F1;
+}
+ul {
+    list-style-type:none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+li{
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    color:black;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right:5px;
+    flex-grow: 8;
+    text-align: center;
+   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+   }
+  p{
+    display: none; /* Initially hide the message */
+    color: whitesmoke;
+  }
+   span{
+    float:inline-end;
+    margin-top:70px;
+    font-size: 20px;
+    } /* Adjust the emoji size as needed */
+   /* color: #ccc;  Set the default color (optional) */
+   /* float: right ;  Make the emoji float to the right */
+   /* margin-left: 10px;  Add margin for spacing (optional) */
+   /* margin-bottom: 20px;*/
+
+
+
